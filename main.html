@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <title>대한민국 산 정보</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 구글 api 아이콘 연결 -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+  <!-- 메뉴 -->
+  <header>
+    <div class="menu">
+      <ul>
+        <li>
+          <a id="logo" href="index.html">
+            <span class="material-icons">landscape</span>
+          </a>
+        </li>
+        <li>
+          <a href="main.html" id="this">등산의 효과</a>
+        </li>
+        <li>
+          <a href="info.html">산 정보</a>
+        </li>
+        <li>
+          <a href="gallery.html">갤러리</a>
+        </li>
+        <li>
+          <a href="equipment.html">등산 용품</a>
+        </li>
+        <li>
+          <a href="FAQ.html">자주묻는 질문</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <!-- //메뉴 -->
+
+  <!-- carousel -->
+  <div class="main-carousel">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="img/jiri2.jpg" alt="지리산">
+        <div class="text">지리산</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="img/hanlla2.jpg" alt="한라산">
+        <div class="text">한라산</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="img/taebaek2.jpg" alt="태백산">
+        <div class=" text">태백산</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div class="slideshow-dots">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+
+  <!-- 등산의 효과 -->
+  <div class="container">
+    <div class="tit">
+      <span>등산의 효과</span>
+    </div>
+    <div class="main-contents">
+      <p>
+        등산에서 얻을 수 있는 건강과 체력 향상의 효과는 <strong>다리 근육뿐만 아니라 폐와 심장</strong>에도 충분한 운동 부하를 주어 <strong>신체 전반의 활력을
+          상승</strong>시킨다.<br>
+        따라서 종일 앉아 있거나 서서 일하는 직장인이 만성 피로감을 줄이는 데 유용하며 자연과 더불어 신선한 산소를 마심으로써 정신적/심리적 정화효과가 뛰어난다.
+      </p>
+      <div class="main-text">1. 다이어트</div>
+      <p>
+        등산은 최소 2~3시간 유산소운동을 하고 보통 5000~7000kcal의 에너지를 소비한다.<br>
+        시간당 에너지 소모량은 마라톤에 비해 낮지만 마라톤보다 3~4배 운동시간이 길기 때문에 전체 칼로리 소모량은 크다.<br>
+        등산은 크게 힘들이지 않고 지방 감량을 할 수 있는 운동이다.<br>
+        지방은 등산과 같이 저중강도의 운동을 장시간 지속했을 때 가장 쉽게 연소된다.
+      </p>
+      <div class="main-text">2. 근력 강화, 심폐기능 향상</div>
+      <p>
+        등산을 하면 근력이 강화된다.<br>
+        산행을 하면 최대 운동능력의 70~80% 정도 힘으로 근육을 장시간 사용하는데, 이 과정에서 근지구력이 향상된다.<br>
+        단련된 근지구력은 하루 종일 앉아서 일하는 직장인의 만성피로감을 줄이는 데 도움이 되며 심폐기능이 향상된다.<br>
+        등산을 하면서 일정한 호흡 운동을 하면 심장 건강에도움이 된다.
+      </p>
+      <div class="main-text">3. 우울증 예방</div>
+      <p>100% 자연에서 즐기는 등산은 정신적 만족감을 준다.<br>
+        스포츠의학 교과서에는 여러 사람과 어울려서 하는 등산은 우울증 예방에 효과가 있다고 명시되어있다.
+      </p>
+      <div class="main-text">4. 시력 개선</div>
+      <p>일상생활에서는 컴퓨터, 책, TV 등 가까운 곳을 오래 보느라 눈의 수정체가 긴장한 상태이다.<br>
+        하지만 등산할 때는 나무, 숲길 등 먼 시선이 유지되고 정상에 올라서도 먼 곳을 응시하기 때문에 긴장된 수정체의 피로를 풀수 있다.<br>
+        산과 숲의 초록색은 눈을 편안하게 해주는 색으로 눈의 피로감과 긴장을 풀어 주는 효과가 있다.<br>
+      </p>
+      <div class="main-text">5. 정력 증진</div>
+      <p>
+        등산은 유산소 운동이면서 근육운동, 정신적 만족감을 높여 정력을 증진시키는 가장 효과 높은 운동이다.<br>
+        하체근육 강화운동이 돼 회음부 근육을 단련시켜 발기 강직도가 세지는 효과가 있다.
+      </p>
+    </div>
+  </div>
+  <!-- //등산의 효과 -->
+
+  <!-- footer -->
+  <footer>
+    <div class="footer">
+      <ul>
+        <li>프론드엔드 웹디자인 기말프로젝트</li>
+        <li>20182375 | 황지영</li>
+        <li>2020.06.28</li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    /* 이미지 슬라이드 */
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+</body>
+
+</html>
